@@ -15,7 +15,7 @@ interface = gr.Interface(
     fn=generate_writing_prompt,
     inputs= gr.Textbox(lines=3, placeholder="Enter your prompt here..."),
     outputs="text",
-    title="MyGPT 📖",
+    title="ConvoGenie 📖",
     description="Always here to help ask me anything!🤟🏻",
     theme="huggingface",
     examples=[
